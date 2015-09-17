@@ -1,0 +1,781 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Nufaza Uje</Author>
+  <LastAuthor>admin</LastAuthor>
+  <Created>2013-11-27T07:03:07Z</Created>
+  <LastSaved>2015-09-12T00:43:21Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9015</WindowHeight>
+  <WindowWidth>15600</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>45</WindowTopY>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Normal 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="Normal 3">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m46534368" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="m46534388" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="m46534408" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="m46534428" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="m46534448" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="m46534468" ss:Parent="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s68" ss:Parent="s63">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="14" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s69" ss:Parent="s63">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s70" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s71" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s72" ss:Parent="s63">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s73" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s74" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s75" ss:Parent="s63">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s89" ss:Parent="s63">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s90" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s91" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s92" ss:Parent="s63">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s93" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s94" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s95">
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="PD">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="34" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="18.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="143.25"/>
+   <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="25.5"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="57.75"/>
+   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="73.5"/>
+   <Column ss:StyleID="s64" ss:Width="74.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Daftar Peserta Didik</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18.75">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">SD NEGERI TEJO 1</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Kec. Mojoagung</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Kab. Jombang</Data></Cell>
+    <Cell ss:StyleID="s72"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s72"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Per tanggal : 2015-09-02 08:15:11</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row ss:Index="7" ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeDown="1" ss:StyleID="m46534368"><Data ss:Type="String">No.</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m46534388"><Data ss:Type="String">Nama</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m46534408"><Data ss:Type="String">JK</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m46534428"><Data ss:Type="String">NIS</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m46534448"><Data ss:Type="String">Rombel</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m46534468"><Data ss:Type="String">Tanggal Lahir</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ACHMAD AGUS RYANTO</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">L</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3870</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1995-08-31</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ACHMAD FAREL FIRZATULLOH</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">L</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3871</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1994-04-06</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ACHMAD PERMADANI AKBAR MAULANA</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">L</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3872</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1992-10-22</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ADAM SUBAKIR</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">L</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3873</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1993-04-02</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ADI HADI PRASETYO</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">L</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3874</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1996-08-07</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">AKNESTIYA DELINA</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3875</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1996-12-30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">AFREYZA TEGAR SUWITO PUTRA</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">L</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3876</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1996-03-28</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">AFRIZDAN PUTRA ARDIANSYA</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">L</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3877</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1996-04-12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">AGUNG HARI PRAYOGO</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">L</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3878</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1996-07-30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">AGUSTIN DWI MULYANTI</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3879</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1997-08-31</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">AHDA QUROTUL HABIBAH</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3880</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1997-12-21</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">AHMAD FEBRIANO ZAHRI</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">L</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3881</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1997-02-17</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ALIFIA DWI FATIHASARI</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3882</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1997-01-21</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">AMANDA SITA AMALIYAH</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3883</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1997-08-28</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">AMANDA YULIA ARIF</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3884</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1997-12-01</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">AMELIA PUTRI</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3885</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1997-03-25</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ANDINI EVRIL AUDELYA</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3886</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1995-04-30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ANGELLYTA AYU DIYAH PUJI LESTARI</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3887</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1995-06-25</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ANINDYA RAMADHINA ISKANDAR</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3888</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1995-10-23</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ANNGITA RATNA SARI</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3889</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1995-05-27</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ANNISA YASFA DIMASTI NAJWA</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3890</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">10</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1995-02-21</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">APRILIA WULAN MAULIDYA</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3891</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1995-04-15</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ARIKHA DITA NINGRUM</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3892</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1995-02-29</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s89"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">ARUM WIJAYANTI</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">3893</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">11</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">1995-02-22</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">AULIA AFFINI ROHMAH</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">3894</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">1995-11-26</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s86">
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">AURELIA PUTRI SAFITRI</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">P</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">3895</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">1995-04-14</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>-3</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <TopRowVisible>24</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>31</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="24" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="20.0625">
+   <Column ss:AutoFitWidth="0" ss:Width="24.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="32.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="208.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="144"/>
+   <Column ss:AutoFitWidth="0" ss:Width="93"/>
+   <Column ss:AutoFitWidth="0" ss:Width="113.25"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="String">Kode</Data></Cell>
+    <Cell><Data ss:Type="String">Judul</Data></Cell>
+    <Cell><Data ss:Type="String">Pengarang</Data></Cell>
+    <Cell><Data ss:Type="String">Lokasi</Data></Cell>
+    <Cell><Data ss:Type="String">Klasifikasi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">B001</Data></Cell>
+    <Cell><Data ss:Type="String">Pendidikan Agama Budha dan Budi Pekerti</Data></Cell>
+    <Cell><Data ss:Type="String">Wisnu candra</Data></Cell>
+    <Cell><Data ss:Type="String">A-001</Data></Cell>
+    <Cell><Data ss:Type="String">Agama</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">B002</Data></Cell>
+    <Cell><Data ss:Type="String">Pendidikan Agama Islam dan Budi Pekerti</Data></Cell>
+    <Cell><Data ss:Type="String">Samsul Arifin</Data></Cell>
+    <Cell><Data ss:Type="String">A-002</Data></Cell>
+    <Cell><Data ss:Type="String">Agama</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">B003</Data></Cell>
+    <Cell><Data ss:Type="String">Pendidikan Agama Hindu dan Budi Pekerti</Data></Cell>
+    <Cell><Data ss:Type="String">Putut arka</Data></Cell>
+    <Cell><Data ss:Type="String">A-003</Data></Cell>
+    <Cell><Data ss:Type="String">Agama</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">B004</Data></Cell>
+    <Cell><Data ss:Type="String">Akuntansi Pajak</Data></Cell>
+    <Cell><Data ss:Type="String">Gembong Sunarya</Data></Cell>
+    <Cell><Data ss:Type="String">P-001</Data></Cell>
+    <Cell><Data ss:Type="String">Akuntansi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">B005</Data></Cell>
+    <Cell><Data ss:Type="String">Panduan Pembelajaran Akuntansi</Data></Cell>
+    <Cell><Data ss:Type="String">Bambang S</Data></Cell>
+    <Cell><Data ss:Type="String">P-002</Data></Cell>
+    <Cell><Data ss:Type="String">Akuntansi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">B006</Data></Cell>
+    <Cell><Data ss:Type="String">Aku Bangga Bahasa Indonesia</Data></Cell>
+    <Cell><Data ss:Type="String">Catur Ningrat</Data></Cell>
+    <Cell><Data ss:Type="String">B-001</Data></Cell>
+    <Cell><Data ss:Type="String">Bahasa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">B007</Data></Cell>
+    <Cell><Data ss:Type="String">Bahasa Inggris</Data></Cell>
+    <Cell><Data ss:Type="String">Steven Cow</Data></Cell>
+    <Cell><Data ss:Type="String">B-002</Data></Cell>
+    <Cell><Data ss:Type="String">Bahasa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">B008</Data></Cell>
+    <Cell><Data ss:Type="String">Bahasa dan Sastra Indonesia</Data></Cell>
+    <Cell><Data ss:Type="String">Melly Guslow</Data></Cell>
+    <Cell><Data ss:Type="String">B-003</Data></Cell>
+    <Cell><Data ss:Type="String">Bahasa</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">B009</Data></Cell>
+    <Cell><Data ss:Type="String">Biologi</Data></Cell>
+    <Cell><Data ss:Type="String">Erikson Carter</Data></Cell>
+    <Cell><Data ss:Type="String">O-001</Data></Cell>
+    <Cell><Data ss:Type="String">Biologi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">B010</Data></Cell>
+    <Cell><Data ss:Type="String">Matematika SMK Bisnis dan Manajemen</Data></Cell>
+    <Cell><Data ss:Type="String">Indah Y</Data></Cell>
+    <Cell><Data ss:Type="String">M-001</Data></Cell>
+    <Cell><Data ss:Type="String">Matematika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">B011</Data></Cell>
+    <Cell><Data ss:Type="String">Pasti Sukses Ujian Nasional</Data></Cell>
+    <Cell><Data ss:Type="String">Nadya Hutagalung</Data></Cell>
+    <Cell><Data ss:Type="String">U-001</Data></Cell>
+    <Cell><Data ss:Type="String">Ujian / Test</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">B012</Data></Cell>
+    <Cell><Data ss:Type="String">FISIKA</Data></Cell>
+    <Cell><Data ss:Type="String">Edward Samson</Data></Cell>
+    <Cell><Data ss:Type="String">F-001</Data></Cell>
+    <Cell><Data ss:Type="String">Fisika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s95">
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">B013</Data></Cell>
+    <Cell><Data ss:Type="String">Fisika 1</Data></Cell>
+    <Cell><Data ss:Type="String">Andi Matalata</Data></Cell>
+    <Cell><Data ss:Type="String">F-002</Data></Cell>
+    <Cell><Data ss:Type="String">Fisika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">B014</Data></Cell>
+    <Cell><Data ss:Type="String">Geografi</Data></Cell>
+    <Cell><Data ss:Type="String">Yunani Madam</Data></Cell>
+    <Cell><Data ss:Type="String">G-001</Data></Cell>
+    <Cell><Data ss:Type="String">Geografi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">B015</Data></Cell>
+    <Cell><Data ss:Type="String">Pendidikan Agama Katolik dan Budi Pekerti</Data></Cell>
+    <Cell><Data ss:Type="String">Samuel Hutabarat</Data></Cell>
+    <Cell><Data ss:Type="String">A-004</Data></Cell>
+    <Cell><Data ss:Type="String">Agama</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">B016</Data></Cell>
+    <Cell><Data ss:Type="String">Belajar Kimia</Data></Cell>
+    <Cell><Data ss:Type="String">Excelina West</Data></Cell>
+    <Cell><Data ss:Type="String">K-001</Data></Cell>
+    <Cell><Data ss:Type="String">Kimia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s95">
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">B017</Data></Cell>
+    <Cell><Data ss:Type="String">KIMIA</Data></Cell>
+    <Cell><Data ss:Type="String">Metlow Hadsun</Data></Cell>
+    <Cell><Data ss:Type="String">K-002</Data></Cell>
+    <Cell><Data ss:Type="String">Kimia</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">B018</Data></Cell>
+    <Cell><Data ss:Type="String">MATEMATIKA</Data></Cell>
+    <Cell><Data ss:Type="String">Fajar Abadi</Data></Cell>
+    <Cell><Data ss:Type="String">M-002</Data></Cell>
+    <Cell><Data ss:Type="String">Matematika</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">B019</Data></Cell>
+    <Cell><Data ss:Type="String">Sejarah</Data></Cell>
+    <Cell><Data ss:Type="String">Buya Hamka</Data></Cell>
+    <Cell><Data ss:Type="String">S-001</Data></Cell>
+    <Cell><Data ss:Type="String">Sejarah</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">B020</Data></Cell>
+    <Cell><Data ss:Type="String">SOSIOLOGI</Data></Cell>
+    <Cell><Data ss:Type="String">Albert Einsten</Data></Cell>
+    <Cell><Data ss:Type="String">I-001</Data></Cell>
+    <Cell><Data ss:Type="String">Sosiologi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">B021</Data></Cell>
+    <Cell><Data ss:Type="String">TEKNOLOGI, INFORMASI DAN KOMUNIKASI</Data></Cell>
+    <Cell><Data ss:Type="String">Hambert Maulana</Data></Cell>
+    <Cell><Data ss:Type="String">T-001</Data></Cell>
+    <Cell><Data ss:Type="String">TIK</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="String">B022</Data></Cell>
+    <Cell><Data ss:Type="String">UJIAN NASIONAL SMA IPA</Data></Cell>
+    <Cell><Data ss:Type="String">Ayunda Sari</Data></Cell>
+    <Cell><Data ss:Type="String">U-002</Data></Cell>
+    <Cell><Data ss:Type="String">Ujian / Test</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">B023</Data></Cell>
+    <Cell><Data ss:Type="String">Evaluasi Ulangan Umum Lengkap</Data></Cell>
+    <Cell><Data ss:Type="String">Hamilda Ajeng</Data></Cell>
+    <Cell><Data ss:Type="String">U-003</Data></Cell>
+    <Cell><Data ss:Type="String">Ujian / Test</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>15</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>24</ActiveRow>
+     <RangeSelection>R25:R26</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
