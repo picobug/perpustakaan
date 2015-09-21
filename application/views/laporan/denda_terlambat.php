@@ -15,7 +15,7 @@
             <tr>
                 <td><?php echo $no;?></td>
                 <td><?php echo $row->id_transaksi;?></td>
-                <td><?php echo $row->tgl_pengembalian;?></td>
+                <td><?php echo $row->tanggal_kembali;?></td>
                 <td><?php echo $row->denda;?></td>
                 <td><?php echo $row->nominal;?></td>
             </tr>

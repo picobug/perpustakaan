@@ -80,7 +80,7 @@
         if ($this->input->post('tanggal1') && $this->input->post('tanggal2')) {
             $tanggal1=$this->input->post('tanggal1');
             $tanggal2=$this->input->post('tanggal2');
-            $denda_terlambat = $this->db->query("SELECT * FROM pengembalian WHERE pengembalian.denda = 'terlambat' AND pengembalian.nominal > 0 AND pengembalian.tgl_pengembalian BETWEEN '$tanggal1' and '$tanggal2'")->result();
+            $denda_terlambat = $this->db->query("SELECT * FROM transaksi WHERE transaksi.denda = 'terlambat' AND transaksi.nominal > 0 AND transaksi.tanggal_kembali BETWEEN '$tanggal1' and '$tanggal2'")->result();
             $data['denda_terlambat'] = $denda_terlambat;
             $this->load->view('laporan/denda_terlambat',$data);
         } else {
@@ -92,7 +92,7 @@
         if ($this->input->post('tanggal1') && $this->input->post('tanggal2')) {
             $tanggal1=$this->input->post('tanggal1');
             $tanggal2=$this->input->post('tanggal2');
-            $denda_rusak = $this->db->query("SELECT * FROM pengembalian WHERE pengembalian.denda = 'rusak' AND pengembalian.tgl_pengembalian BETWEEN '$tanggal1' and '$tanggal2'")->result();
+            $denda_rusak = $this->db->query("SELECT * FROM transaksi WHERE transaksi.denda = 'rusak' AND transaksi.tanggal_kembali BETWEEN '$tanggal1' and '$tanggal2'")->result();
             $data['denda_rusak'] = $denda_rusak;
             $this->load->view('laporan/denda_rusak',$data);
         } else {
@@ -101,7 +101,7 @@
     }
 	function buku_rusak($value='') {
         $data['title'] = 'Detail Buku Hilang / Rusak';
-		$buku_rusak = $this->db->query("SELECT buku.kode_buku, buku.judul, buku.pengarang FROM buku JOIN transaksi ON transaksi.kode_buku = buku.kode_buku JOIN pengembalian ON pengembalian.id_transaksi = transaksi.id_transaksi WHERE pengembalian.denda = 'rusak' AND buku.status=1")->result();
+		$buku_rusak = $this->db->query("SELECT buku.kode_buku, buku.judul, buku.pengarang FROM buku JOIN transaksi ON transaksi.kode_buku = buku.kode_buku WHERE transaksi.denda = 'rusak' AND buku.status='rusak'")->result();
 		$data['buku_rusak'] = $buku_rusak;
 		$this->template->display('laporan/buku_rusak',$data);
         

@@ -12,7 +12,7 @@
         <tr>
             <td><?php echo $no;?></td>
             <td><a href="<?php echo site_url('laporan/detail_pinjam/'.$row->id_transaksi);?>"><?php echo $row->id_transaksi;?></a></td>
-            <td><?php echo $row->tgl_pengembalian;?></td>
+            <td><?php echo $row->tanggal_kembali;?></td>
             <td><?php echo $row->nominal;?></td>
         </tr>
         <?php endforeach;?>

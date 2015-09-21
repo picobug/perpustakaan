@@ -32,6 +32,25 @@
         Welcome : <?php echo ucfirst($anggota->nama); ?>
     </div>
     <div class="panel-body">
+        <?php $book = $this->session->flashdata('message'); $book_array = json_decode($book,true); ?>
+        <?php if ($book && !empty($book_array)): ?>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Buku Pesanan</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php foreach ($book_array as $val): ?>
+                <tr>
+                  <td><?php echo $val['judul'] ?></td>
+                  <td><?php echo $val['status'] ?></td>
+                </tr>
+              <?php endforeach ?>
+            </tbody>
+          </table>
+        <?php endif ?>
         <div class="container">
             <ul class="glyphicons">
                 <li>

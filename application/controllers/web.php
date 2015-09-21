@@ -75,6 +75,8 @@ class Web extends CI_Controller{
             if ($cek->num_rows()>0) {
                 $this->db->query("UPDATE anggota SET anggota.counter = (anggota.counter+1) WHERE anggota.nis = $username");
                 $this->session->set_userdata('usernis',$username);
+                $book = $this->db->select('*')->from('pemesanan')->join('buku','buku.kode_buku = pemesanan.kode_buku')->where(array('buku.status'=>'tersedia','pemesanan.nis'=>$username))->get()->result_array();
+                $this->session->set_flashdata('message',json_encode($book));
                 redirect('dashboard_nis');
             } else {
                 $this->session->set_flashdata('message','NIS Anggota salah');

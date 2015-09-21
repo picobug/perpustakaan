@@ -202,10 +202,7 @@
     </div>
     
     <div id="tampil"></div>
-    
-    <div class="panel-footer">
-        <button id="simpan" class="btn btn-primary"><i class="glyphicon glyphicon-saved"></i> Simpan</button>
-    </div>
+
 </div>
 
 

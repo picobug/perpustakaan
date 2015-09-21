@@ -34,26 +34,28 @@ class Pengembalian extends CI_Controller{
     function tampil(){
         $no=$_GET['no'];
         $data['buku']=$this->m_pengembalian->tampilBuku($no)->result();
-        $transaksi=$this->m_pengembalian->cariTransaksi($no)->row_array();
+        // $transaksi=$this->m_pengembalian->cariTransaksi($no)->row_array();
         
         $this->load->view('pengembalian/tampilbuku',$data);
     }
     
     function simpan(){
         $info=array(
-            'id_transaksi'=>$this->input->post('no'),
-            'tgl_pengembalian'=>date('Y-m-d'),
+            // 'id_transaksi'=>$this->input->post('no'),
+            // 'tgl_pengembalian'=>date('Y-m-d'),
             'denda'=>$this->input->post('denda'),
-            'nominal'=>$this->input->post('nominal')
+            'nominal'=>$this->input->post('nominal'),
+            'status'=>"Y"
         );
-        $this->m_pengembalian->simpan($info);
+        // $this->m_pengembalian->simpan($info);
         
         //update status peminjaman dari N menjadi Y
         $no=$this->input->post('no');
+        $buku=$this->input->post('buku');
         $update=array(
             'status'=>"Y"
         );
-        $this->m_pengembalian->update($no,$update);
+        $this->m_pengembalian->update(array($no,$buku),$info);
         
         // $this->m_pengembalian->simpan($info);
     }
